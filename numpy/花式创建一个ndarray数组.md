@@ -14,25 +14,30 @@ np.full() | 创建`指定值`的数组
 np.eye()| 创建`对角矩阵`
 
 ## np.array  
-np.array(10)
+`np.array([1,2])
+np.array([1,2,[3,4]])`
 ## np.arange
 np.arange(10)  
-np.arange(1,5,2)
+np.arange([1,5,2])
 ## np.linspace
-np.linspace(1,10,2)  
+np.linspace([1,10,2])  
 ## np.logspace
-np.logspace(0,2,10)  
+np.logspace([0,2,10])  
 ## np.random.?
 np.random.randint(10)  
 np.random.rand(10)  
 ......
 ## np.zeros 
+np.zero(5)
 np.zeros((2,3))
 ## np.ones 
+np.ones(5)
 np.ones((2,3))
 ## np.empty 
+np.empty(5)
 np.empty((2,3))
 ## np.full 
+np.full(5)
 np.full((2,3))
 ## np.eye [必须是矩阵]
 np.eye((3,3))
