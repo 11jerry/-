@@ -14,8 +14,8 @@ np.full() | 创建`指定值`的数组
 np.eye()| 创建`对角矩阵`
 
 ## np.array  
-`np.array([1,2])
-np.array([1,2,[3,4]])`
+np.array([1,2])
+np.array([1,2,[3,4]])
 ## np.arange
 np.arange(10)  
 np.arange([1,5,2])
